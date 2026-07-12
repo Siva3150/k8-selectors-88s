@@ -21,7 +21,8 @@ metadata:
 spec:
  affinity: 
   podAffinity: 
-   requiredDuringSchedulingIgnoredDuringExecution: 
+   requiredDuringSchedulingIgnoredDuringExecution:
+   # pod lables  
    - labelSelector: 
       matchExpressions: 
       - key: app 
